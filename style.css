@@ -35,6 +35,9 @@ body{
 .opened{
     height: 240px;
 }
+.th_fr_floor{
+    background-color: white;
+}
 .head_logo_first{
     width: 122px;
     display: inline-block;
@@ -177,15 +180,7 @@ body{
     height: auto;
     background-color: rgb(247, 247, 247);
 }
-.right_side {
-    min-height: 100vh;
-    background: url("pictures/logo6.jpg") no-repeat scroll center 0/cover;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+
 .left_side{
     width: 100%;
     float: left;
@@ -195,6 +190,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 100%;
+    flex-direction: row;
 }
 .left_side_container{
     margin-top: 35px!important;
