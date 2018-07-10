@@ -66,7 +66,7 @@ $(document).ready(function () {
 
     $("#mail").blur(function () {
         var string1 = $("#mail").val();
-        var string_mass = string1.match(/[a-z][a-z0-9\.]+[a-z]+\@[a-z]+\.[a-z]{2,}/ig);
+        var string_mass = string1.match(/[a-z][a-z0-9\.]+[a-z0-9]+\@[a-z]+\.[a-z]{2,}/ig);
         if (string_mass !== null) {
             var string_filter = string_mass.join();
             if (string_filter === string1) {
