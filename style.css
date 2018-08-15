@@ -122,7 +122,11 @@ body {
     cursor: pointer;
     transition: color 0.3s;
 }
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .bar_right {
     float: right;
     display: inline-block;
@@ -132,10 +136,6 @@ body {
 
 .bar_buttons li:hover {
     opacity: 1;
-}
-
-.bar_buttons li:nth-child(2):hover {
-    color: rgb(238, 47, 27);
 }
 
 .head_text {
